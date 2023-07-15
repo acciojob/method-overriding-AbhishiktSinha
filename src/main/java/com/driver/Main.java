@@ -7,19 +7,17 @@ public class Main {
       }
   }
   public static class B extends A {
-      public B() {
-      }
-      //      @Override
+
       public String meth() {
           return "Method is overridden in Extended class B";
       }
   }
   public static void main(String[] args) {
-      B ob = new B();
-      ob.meth();
+      B o1 = new B();
+      o1.meth();
 
-      B ob2 = new B();
-      ob.meth();
+      B o2 = new B();
+      o2.meth();
 
   }
 }
